@@ -1,0 +1,169 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Apple";
+  overflow: hidden;
+}
+
+body {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@font-face {
+  src: url("../html_practice/fonts/AppleSDGothicNeoR.ttf");
+  font-family: "Apple";
+}
+
+#top_area {
+  display: flex;
+  justify-content: flex-end;
+  height: 30px;
+  padding-right: 30px;
+  margin-top: 20px;
+  /* border: 10p solid black; */
+}
+#top_area a {
+  color: #737373;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.top_element {
+  padding: 0px, 30px;
+}
+
+.top_element a {
+  vertical-align: middle;
+  padding-left: 15px;
+}
+
+.top_element img {
+  padding-left: 15px;
+}
+
+#grid {
+  height: 100%;
+  opacity: 0.5;
+}
+
+#grid:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+#profile {
+  height: 100%;
+}
+
+#main_area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#hongle_logo {
+  padding: 109px 0px 0px;
+  width: 272px;
+  height: auto;
+}
+
+#search_box {
+  display: flex;
+  width: 582px;
+  height: 44px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  align-items: center;
+}
+
+#search_icon {
+  width: 20px;
+  height: 20px;
+  fill: #9aa0a6;
+  padding-left: 0.7rem;
+  padding-right: 1.3rem;
+}
+
+#search_input {
+  width: 447px;
+  height: 37px;
+  border: none;
+}
+
+#search_input:focus {
+  outline: none;
+}
+
+#keyboard {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+#microphone {
+  width: 24px;
+  height: 24px;
+  padding: 0px, 8px;
+}
+
+#button_wrap {
+  width: 100%;
+  padding: 18px, 0px, 0px;
+}
+.button_element {
+  height: 36px;
+  margin: 0.6rem 0.4rem;
+  padding: 0rem 1.6rem;
+  font-family: "Apple";
+  border: none;
+  border-radius: 5px;
+}
+
+.button_element:hover {
+  cursor: pointer;
+}
+
+#corona {
+  margin: 11px;
+}
+
+#corona a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+#bottom {
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+}
+
+#bottom_line_a {
+  min-width: 100%;
+  height: 40px;
+  background-color: #f2f2f2;
+}
+#bottom_line_b {
+  min-width: 100%;
+  height: 40px;
+  background-color: #f2f2f2;
+}
+
+#bottom_left {
+  float: left;
+}
+
+#bottom_right {
+  float: right;
+  padding-right: 20px;
+}
+
+#bottom span {
+  padding-left: 27px;
+  line-height: 40px;
+}
