@@ -105,10 +105,19 @@ body {
   padding-left: 0.8rem;
   padding-right: 0.8rem;
 }
+
+#keyboard:hover {
+  cursor: pointer;
+}
+
 #microphone {
   width: 24px;
   height: 24px;
   padding: 0px, 8px;
+}
+
+#microphone:hover {
+  cursor: pointer;
 }
 
 #button_wrap {
