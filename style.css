@@ -33,7 +33,9 @@ body {
 }
 
 .top_element {
+  display: flex;
   padding: 0px, 30px;
+  align-items: center;
 }
 
 .top_element a {
