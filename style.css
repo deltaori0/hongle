@@ -14,7 +14,7 @@ body {
 }
 
 @font-face {
-  src: url("../html_practice/fonts/AppleSDGothicNeoR.ttf");
+  src: url("./fonts/AppleSDGothicNeoR.ttf");
   font-family: "Apple";
 }
 
